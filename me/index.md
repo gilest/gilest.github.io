@@ -2,10 +2,7 @@
 layout: about
 ---
 
-Hello, my name is Micah Cowell. I am a self proclaimed web developer who likes the internet, hip hop, and fancy yo-yos.
+Hello, my name is Giles Thompson.
 
 # What do you do?
-I make website and stuff. All the code I write is on my [Github](https://github.com/getmicah).
-
-# What programming languages do you use?
-When making websites I like using Javascript and Sass. I also like Python and making linux scripts.
+I'm a self-employed software consultant. I specialise in early-stage startups, assisting them to plan, manage agile development, prototype, and build effective software.
