@@ -8,7 +8,7 @@ body {
 	color: $color-black;
 	background: $color-white;
 	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 75%;
+	font-size: 100%;
 	font-weight: 400;
 }
 h1 {
@@ -57,7 +57,7 @@ blockquote {
 }
 
 .wrapper {
-	max-width: 600px;
+	max-width: 800px;
 	margin: auto;
 	padding: 60px 30px 60px 30px;
 	@media screen and (max-width: $br) {
