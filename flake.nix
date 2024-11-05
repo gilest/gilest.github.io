@@ -13,6 +13,8 @@
           packages = [ pkgs.ruby ];
           shellHook = ''
             echo "Running with ruby: $(ruby --version)"
+            echo "Installing gems"
+            bundle install
           '';
         };
       }
