@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="header">
+  <h1>{{ site.name }}</h1>
+  <ul>
+    {% for item in site.data.navigation %}
+    <li>
+      {% if item.title == 'github' %}
+      <a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+      {% else %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<h2>Employment</h2>
+
+<ul class="transcript_section">
+  <li>2022-2024 - Lead Software Engineer - realestate.co.nz</li>
+
+  <li>2020-2021 - Lead Front-End - Nightwatch</li>
+
+  <li>2013-2016 - Co-Founder and CTO - Glory League</li>
+
+  <li>2012-2013 - Ruby on Rails Developer - One Big Voice</li>
+
+  <li>2010-2011 - Front-End Developer - GuestTraction</li>
+</ul>
+
+
+<h2>Open source</h2>
+
+<ul class="transcript_section">
+  <li>
+    2021-now - Maintainer - ember-file-upload NPM package
+    [<a href="https://github.com/adopted-ember-addons/ember-file-upload/pulls?q=author%3Agilest+">PRs</a>]
+  </li>
+
+  <li>2024 - Created phoenix_importamp Elixir package</li>
+
+  <li>
+    2023 - Added Ember template languages to GitHub lingust [<a href="https://github.com/github-linguist/linguist/pull/6578">1</a>][<a href="https://github.com/github-linguist/linguist/pull/6680">2</a>]
+  </li>
+
+  <li>2013 - Created mailer_fragment_caching Ruby gem</li>
+</ul>
+
+<h2>Additionally</h2>
+
+<ul>
+  <li>2026 - School for Poetic Computing - <a href="https://sfpc.study/sessions/spring-26/time-manifestations" target="_blank">Time and its Manifestations</a></li>
+
+  <li>2026 - Judge - The Pavs (Aotearoa Game Awards)</li>
+
+  <li>2017 - Innovation Excellence Award (Glory League)</li>
+
+  <li>2015 - Massey University Innovation in Sport Award (Glory League)</li>
+
+  <li>2014 - Coach - Rails Girls</li>
+</ul>
