@@ -44,7 +44,7 @@ table {
 $color-black: #272727;
 $color-white: #FFFFFF;
 $color-grey: #EEEEEE;
-$color-link: #1A0DAB;
+$color-link: #DA2128;
 $color-code: #00FF00;
 $color-hire-white: #FEFEFE;
 $color-hire-black: #272727;
@@ -52,12 +52,34 @@ $color-hire-green: #B6EFD4;
 $color-hire-blue: #A0CCDA;
 $color-hire-shadow: rgba(0, 0, 0, 0.2);
 
+$color-offwhite: #e8e6e3;
+$color-offblack: #181a1b;
+
 // BREAKPOINTS
 $br: 800px;
 
+// Fonts
+.ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-serif-bold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-serif-regular-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 body {
-	color: $color-black;
-	background: $color-white;
+	color: $color-offwhite;
+	background: $color-offblack;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 100%;
 	font-weight: 400;
